@@ -12,5 +12,5 @@ let treasureText = "Congrats! You found treasure! Your score increases by 20.";
 let endText1 = "You went left and found a village. It was peaceful, but you missed out on something exciting!";
 let endText2 = "You went right and faced a dangerous wild animal. Unfortunately, the animal attacked you.";
 let endText3 = "You entered the cave and found hidden treasure! You’re the hero of this story!";
-let endText4 = "You walked away from the cave, missing the treasure. Your journey ends here.";
+let endText4 = "You walked away from the cave, missing the treasure. Your journey ends here rest in pizzle.";
 let endText5 = "You opened the chest and found gold and jewels! You’re rich!";

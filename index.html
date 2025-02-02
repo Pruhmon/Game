@@ -4,8 +4,44 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Adventure Game</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #111;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+    #game-container {
+      max-width: 600px;
+      margin: auto;
+      border: 2px solid white;
+      padding: 20px;
+      border-radius: 10px;
+      background-color: #222;
+    }
+    button {
+      padding: 10px 20px;
+      margin: 10px;
+      border: none;
+      background-color: #555;
+      color: white;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+    button:hover {
+      background-color: #777;
+    }
+  </style>
 </head>
 <body>
+  <div id="game-container">
+    <h1>Adventure Game</h1>
+    <p id="story-text">Loading game...</p>
+    <div id="choices"></div>
+  </div>
+
   <script src="gameData.js"></script>
   <script src="story.js"></script>
 </body>
+</html>
